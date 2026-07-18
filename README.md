@@ -71,7 +71,7 @@ just reach out.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/fabio-chippari-brito-0a194a261/) ·
+[LinkedIn](https://www.linkedin.com/in/fabiochippari/) ·
 [fabiochipparibrito@gmail.com](mailto:fabiochipparibrito@gmail.com)
 
 Open to summer 2027 internships in AI engineering across the EU.
