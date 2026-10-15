@@ -1,71 +1,54 @@
 # Fabio Chippari
 
-Computer Engineering student at Mackenzie (São Paulo, Brazil), graduating 2029.
-I build systems that run in production — data pipelines, automations, and the
-infrastructure around them. Moving toward AI engineering.
-
-**Italian (EU) and Brazilian citizen.** No visa sponsorship required to work in the EU.
-
----
-
-## Now
-
-Working through Andrej Karpathy's _Neural Networks: Zero to Hero_ by hand — no AI
-assistance, no copying from the reference repo.
-→ [`nn-zero-to-hero-notes`](https://github.com/chippari/nn-zero-to-hero-notes)
+Computer Engineering student at Mackenzie (São Paulo, Brazil), expected to graduate in 2029.
+I develop software for companies, mostly automations and internal tools, handling projects
+from the first idea to production.
 
 ---
 
 ## Work
 
-### Capitech Store — IT lead & systems developer · 2026–present
+### Capitech Store — Software Developer (Part-time) · Feb 2026–present
 
-Importer and reseller operating across Shopee, Mercado Livre, Amazon and TikTok Shop.
-Sole engineer: I own IT end to end — systems development, automation, and the technical
-side of the operation.
+Importer and reseller selling on Shopee, Mercado Livre, Amazon and TikTok Shop.
 
-- **Marketplace financial reporting SaaS** — consolidates raw financial exports from four
-  marketplaces, each with its own schema and financial semantics, into a single report
-  with COGS and tax applied per SKU. Dedicated parser per marketplace, canonical SKU model
-  with alias learning, template-preserving Excel generation, zero retention of financial
-  data (in-memory only). Running in production.
-  _FastAPI · Next.js · Supabase · Docker · Coolify · GitHub Actions → GHCR_
-- **Internal operations system** — automated Instagram publishing and a Mercado Livre
-  scraper for trending products. In production.
-  _TypeScript · Next.js_
-- **E-commerce storefront** — WordPress/WooCommerce sales channel with a custom child
-  theme, Brazilian checkout, LGPD-compliant.
+- **Marketplace financial reporting app** — merges sales files from 4 marketplaces into
+  one financial report, with product cost and tax applied to each item. Each marketplace
+  has its own file format, so each one has its own reader. In use with the company's real data.
+  _Python · FastAPI · Next.js · PostgreSQL · Supabase · Docker_
+- **Online store** — the company's own sales channel, built on WordPress and WooCommerce,
+  integrating payments, shipping and the ERP for automatic invoicing.
+- **WhatsApp product ideas bot** — uses AI to turn product ideas (photos, videos, text or
+  links) into organized rows in Google Sheets. Built so no message is lost, with a
+  persistent queue, automatic retries and 1,400+ automated tests.
+  _Python · FastAPI · OpenAI API · Docker_
+- **Internal automations** — automated Instagram publishing and a tool that tracks
+  trending products on Mercado Livre.
 
-### Razorbil Consulting — IT lead & systems developer · 2026–present · [razorbil.com.br](https://razorbil.com.br)
+### Razorbil Consulting — Software Developer (Freelance) · Jun 2026–present · [razorbil.com.br](https://razorbil.com.br)
 
-Boutique strategy and technology consultancy for companies going through
-professionalization. Sole engineer: I build the software it delivers with.
+Strategy and technology consultancy for small and mid-sized companies.
 
-- **Transit-benefit optimization platform** — data pipeline plus a web operations
-  interface that turns raw client data into a finished report. Used in production by the
-  consultancy to deliver a client-facing service.
+- **Transit benefit report tool** — cleans and processes raw client data and generates a
+  finished transit benefit report. Used in a paid client project.
   _Python_
-- **Daily collection bot** — Telegram bot that proactively runs a structured 22-step daily
-  collection with school units for billing. Engine/channel separation (the conversation
-  loop is testable without a Telegram token), state anchored in Postgres so it survives
-  restarts mid-conversation, configuration as data (new unit = new CSV, not new code),
-  escalation ladder with scheduled reminders and fallback contacts.
-  _TypeScript · grammY · Prisma · BullMQ · Redis · Docker_
-- **Institutional website** — [razorbil.com.br](https://razorbil.com.br). Next.js,
-  TypeScript, accessible markup, LGPD-compliant contact flow.
+- **School meal count bot** — Telegram bot built to collect daily meal counts from school
+  units, with automatic reminders and escalation to backup contacts.
+  _TypeScript · PostgreSQL · Docker_
+- **Web scrapers and internal tools** to support client reports and analyses.
+- **Company website** — [razorbil.com.br](https://razorbil.com.br). _Next.js_
 
-Company and client work is private. Happy to walk through architecture and decisions —
-just reach out.
+Company and client work is private. Happy to walk through how these projects work, just reach out.
 
 ---
 
 ## Stack
 
-- **Languages** — Python · TypeScript · JavaScript
-- **Backend** — FastAPI · Node.js · PostgreSQL · Prisma · Redis
-- **Frontend** — Next.js · React · Tailwind
-- **Infra** — Docker · Coolify · GitHub Actions · Supabase
-- **Learning** — PyTorch · neural networks from scratch
+- **Programming** — Python · JavaScript · SQL · HTML · CSS
+- **Frameworks & Platforms** — FastAPI · Next.js · Pandas · WordPress · WooCommerce
+- **Databases** — PostgreSQL · Supabase
+- **Tools** — Docker · Git · GitHub Actions · Coolify
+- **AI Tools** — Claude Code · OpenAI API
 
 ---
 
@@ -73,5 +56,3 @@ just reach out.
 
 [LinkedIn](https://www.linkedin.com/in/fabiochippari/) ·
 [fabiochipparibrito@gmail.com](mailto:fabiochipparibrito@gmail.com)
-
-Open to summer 2027 internships in AI engineering across the EU.
