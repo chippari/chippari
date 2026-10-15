@@ -20,12 +20,12 @@ Importer and reseller selling on Shopee, Mercado Livre, Amazon and TikTok Shop.
   integrating payments, shipping and the ERP for automatic invoicing.
 - **WhatsApp product ideas bot** — uses AI to turn product ideas (photos, videos, text or
   links) into organized rows in Google Sheets. Built so no message is lost, with a
-  persistent queue, automatic retries and 1,400+ automated tests.
+  persistent queue and automatic retries.
   _Python · FastAPI · OpenAI API · Docker_
 - **Internal automations** — automated Instagram publishing and a tool that tracks
   trending products on Mercado Livre.
 
-### Razorbil Consulting — Software Developer (Freelance) · Jun 2026–present · [razorbil.com.br](https://razorbil.com.br)
+### Razorbil Consulting — Software Developer (Freelance) · Jun 2026–present
 
 Strategy and technology consultancy for small and mid-sized companies.
 
