@@ -55,4 +55,4 @@ Company and client work is private. Happy to walk through how these projects wor
 ## Contact
 
 [LinkedIn](https://www.linkedin.com/in/fabiochippari/) ·
-[fabiochipparibrito@gmail.com](mailto:fabiochipparibrito@gmail.com)
+[fabiochipparibrito@gmail.com](mailto:fachippari@gmail.com)
